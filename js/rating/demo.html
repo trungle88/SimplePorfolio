@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Rating</title>
+	<link rel="stylesheet" href="jquery.rs.rating.css"/>
+	<script type="text/javascript" src="../jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="jquery.rs.rating.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.rating').rsRating({
+				step: 0.5,
+				maxRates: 2,
+				change: function(val){
+					alert(val);
+				}
+			});
+			$('.rating2').rsRating({
+				step: 0.5,
+				maxRates: 2,
+				style: 2,
+				change: function(val){
+					alert(val);
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+	<div style="padding:10px; margin:10px">
+		<input type="hidden" class="rating" value="3.5"/>
+		<br/>
+		<input type="hidden" class="rating" value="1.5"/>
+		<br/>
+		<input type="hidden" class="rating2" value="3.5"/>
+	</div>
+</body>
+</html>

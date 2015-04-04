@@ -1,0 +1,225 @@
+/*=======================
+Theme: Awesome Photography/Portfolio Template
+This is the Style for Responsiveness
+Author: JLP Media
+Email: jennpereira13@gmail.com / lianplameras@gmail.com
+Version: 1.00 
+Date Created: August 10, 2014
+Updated: August 23, 2014
+=======================*/
+@media screen and (min-width: 1400px){
+	figure.effect-portfolio img{
+		width: 100%;
+	}
+}
+@media screen and (min-width:1367px) {
+	#contact-popup {
+		display:block !important;
+	}
+}
+@media screen and (min-width:992px) {
+	.blog-post .information {
+		padding-left:0;
+	}
+}
+@media screen and (min-width:768px) {
+	#sidebar-left header {
+		min-height:100%;
+		margin-bottom:-80px;
+	}	
+	#sidebar-left header:after {
+		display:block;
+		content: "";
+		height:80px;
+	}
+}
+@media screen and (max-width:1366px) {
+	#sidebar-right {
+		display:none;
+	}
+	#content {
+		margin-right:0;
+	}
+	#sidebar-left nav .contact-me {
+		display:inline-block;
+	}
+	figure.effect-portfolio img{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	.box-container h2.title-box{
+		font-size: 30px;
+	}
+	.box-container h6.desc-title{
+		font-size: 15px;
+	}
+	.box-container .content-box p{
+		font-size: 11px;
+		line-height: 17px;
+	}
+	.container-box figure{
+		vertical-align: top;
+	}
+
+	figure.effect-portfolio:hover figcaption h2, figure.effect-portfolio:hover figcaption p{
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+}
+
+@media screen and (max-width:991px) {
+	.blog-post h3 {
+		margin-top:10px;
+	}
+	.blog-post {
+		margin-bottom:30px;
+	}
+	.box-container h2.title-box{
+		font-size: 25px;
+	}
+	.box-container h6.desc-title {
+	    font-size: 14px;
+	}
+	.list-category{
+		float: none;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.share-post{
+		text-align: left;
+		padding-left: 5px;
+	}
+	figure.effect-portfolio figcaption:before{
+		left: 10px;
+		right: 10px;
+		top: 20px;
+		bottom: 20px;
+	}
+	figure.effect-portfolio figcaption:after{
+		left: 20px;
+		right: 20px;
+		top: 10px;
+		bottom: 10px;
+	}
+	figure.effect-portfolio:hover figcaption h2, figure.effect-portfolio:hover figcaption p{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.container-box figure{
+		vertical-align: bottom;
+	}
+}
+
+@media screen and (max-width: 880px){
+	.box-container-6, .box-container-4{
+		display: block;
+		width: 100%;
+	}
+	.box-container-6 img, .box-container-4 img{
+		width: 100%;
+	}
+	.box-container h2.title-box, .box-container h6.desc-title, .box-container .content-box p{
+		padding: 0px;
+	}
+	.box-container .content-box p{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	footer#footer {
+		display:block;
+	}
+	.sidebar-fixed {
+		
+	}
+	#sidebar-left {
+		width:auto;
+		position:relative;
+		padding-bottom:20px;
+	}
+	.author-information > p {
+		max-width:500px;
+		margin:0 auto;
+	}
+	#sidebar-left footer {
+		display:none;
+	}
+	#content {
+		margin:0;
+	}
+	#content-resume .feature-image > img {
+		width:100%;
+	}
+	#content-resume .primary-content {
+		padding-right:30px;
+	}
+	.thumbnail-container .feature-image img{
+		width: 100%
+	}
+	.box-container-6, .box-container-4, .container-box figure{
+		display: inline-block;
+		min-width: inherit;
+	}
+	.box-container h2.title-box, .box-container h6.desc-title, .box-container .content-box p{
+		padding: 0px;
+	}
+	.box-container h2.title-box, .box-container h6.desc-title, .box-container .content-box p{
+		padding: 0px 5px 0px 20px;
+	}
+	.box-container-6, .box-container-4{
+		display: inline-block;
+		width: 50%;
+	}
+@media screen and (max-width: 550px){
+	.box-container-6, .box-container-4, .container-box figure{
+		display: block;
+		width: 100%;
+	}
+	figure.effect-portfolio img{
+		width: 100%;
+	}
+	.inline-comment a.name-member, .inline-comment p{
+		float: none;
+		width: 100%;
+		text-align: left;
+	}
+	#comments .content-comment{
+		margin-left: 0px;
+	}
+
+	#comments .avatar-member{
+		margin-right: 10px;
+	}
+	#comments .content-comment .inline-comment{
+		margin-bottom: 10px;
+	}
+	#comments ul ul{
+		padding-left: 30px;
+	}
+
+	.inline-comment a, .inline-comment i{
+		text-align: left;
+		display: block;
+	}
+	.box-container h2.title-box, .box-container h6.desc-title, .box-container .content-box p{
+		padding: 0px;
+	}
+	#content .feature-image-single iframe{
+		height: 200px;
+	}
+}
+@media screen and (max-width:450px) {
+	.blog-post a {
+		font-size:9px;
+	}
+	.list-inline-blog .child-list.comments {
+		display:block;
+		margin-top:5px;
+	}
+	.list-inline-blog .child-list.list-category {
+		border-right:none;
+	}
+}

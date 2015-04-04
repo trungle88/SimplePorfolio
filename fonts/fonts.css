@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'lucida_fax';
+    src: url('lfaxi-webfont.eot');
+    src: url('lfaxi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lfaxi-webfont.woff2') format('woff2'),
+         url('lfaxi-webfont.woff') format('woff'),
+         url('lfaxi-webfont.ttf') format('truetype'),
+         url('lfaxi-webfont.svg#lucida_faxitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'lucida_fax';
+    src: url('lfax-webfont.eot');
+    src: url('lfax-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lfax-webfont.woff2') format('woff2'),
+         url('lfax-webfont.woff') format('woff'),
+         url('lfax-webfont.ttf') format('truetype'),
+         url('lfax-webfont.svg#lucida_faxregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lucida_fax';
+    src: url('lfaxdi-webfont.eot');
+    src: url('lfaxdi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lfaxdi-webfont.woff2') format('woff2'),
+         url('lfaxdi-webfont.woff') format('woff'),
+         url('lfaxdi-webfont.ttf') format('truetype'),
+         url('lfaxdi-webfont.svg#lucida_faxdemibold_italic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'lucida_fax';
+    src: url('lfaxd-webfont.eot');
+    src: url('lfaxd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lfaxd-webfont.woff2') format('woff2'),
+         url('lfaxd-webfont.woff') format('woff'),
+         url('lfaxd-webfont.ttf') format('truetype'),
+         url('lfaxd-webfont.svg#lucida_faxdemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'utm_alter_gothic';
+    src: url('utm_alter_gothic-webfont.eot');
+    src: url('utm_alter_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('utm_alter_gothic-webfont.woff2') format('woff2'),
+         url('utm_alter_gothic-webfont.woff') format('woff'),
+         url('utm_alter_gothic-webfont.ttf') format('truetype'),
+         url('utm_alter_gothic-webfont.svg#utm_alter_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
